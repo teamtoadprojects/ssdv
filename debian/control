@@ -1,0 +1,13 @@
+Source: ssdv
+Section: graphics
+Priority: optional
+Maintainer: Tom Wardill <tom@howrandom.net>
+Build-Depends: debhelper (>= 9)
+Standards-Version: 3.9.8
+Homepage: https://github.com/fsphil/ssdv
+
+Package: ssdv
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Simple command line app for encoding / decoding SSDV image data
+ Robust version of the JPEG image format, for transmission over an unreliable medium.
